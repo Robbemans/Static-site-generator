@@ -43,6 +43,8 @@ def text_node_to_html_node(text_node):
     elif text_node.text_type == TextType.IMAGE:
         return LeafNode("img", "", {"src": f"{text_node.url}",
                                     "alt": f"{text_node.text}"})
+    
+    #I DO NOT WANT TO LOSE MY BOOTDEV STREAK SO IM DOING A GIT PUSH
 
 
     
