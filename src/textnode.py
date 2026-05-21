@@ -44,7 +44,7 @@ def text_node_to_html_node(text_node):
         return LeafNode("img", "", {"src": f"{text_node.url}",
                                     "alt": f"{text_node.text}"})
     
-    #I DO NOT WANT TO LOSE MY BOOTDEV STREAK SO IM DOING A GIT PUSH (again) (Number three...) (and four...) (five...)
+    #I DO NOT WANT TO LOSE MY BOOTDEV STREAK SO IM DOING A GIT PUSH (again) (Number three...) (and four...) (five...) (six...)
 
 
     
